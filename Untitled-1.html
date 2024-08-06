@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Food Website</title>
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="nav-container">
+                <img src="img/logo.png" alt="Logo">
+                <div class="links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About Us</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#contact">Contact Us</a>
+                </div>
+                <div class="search">
+                    <input type="search" placeholder="Search foods">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <section id="home" class="landingpage">
+        <div class="content">
+            <div class="heading" data-aos="fade-left" data-aos-duration="2000">
+                <h3>Signature Dish</h3>
+                <h1>Richness <br>encapsulated in every bite!!!!</h1>
+                <p>Dive into a garden-fresh symphony of flavors with our enticing salad bowl.</p>
+                <button  data-aos="fade-left" data-aos-duration="2000" data-aos-delay="00">Download Recipe</button>
+            </div>           
+            <div class="img">
+                <img src="img/ss.png" data-aos="zoom-in" data-aos-duration="2000">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Page -->
+    <section id="about" class="aboutus">
+        <div class="content">
+            <div class="heading" data-aos="fade-down" data-aos-duration="2000">
+                <h1>About Us</h1>
+                <p>Welcome to Tasty Twist, where we bring you the finest culinary delights with a twist. Our mission is to provide a memorable dining experience with our unique recipes and exceptional service.</p>
+            </div>
+            <div class="img" data-aos="fade-up" data-aos-duration="2000">
+                <img src="img/about.jpg" alt="About Us">
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Page -->
+    <section id="menu" class="menu">
+        <div class="content">
+            <div class="heading" data-aos="fade-down" data-aos-duration="2000">
+                <h1>Our Menu</h1>
+                <p>Explore our diverse and delicious menu. From appetizers to desserts, we offer a wide variety of dishes to satisfy every palate. Enjoy our chef's special creations and experience the best of culinary delights.</p>
+            </div>           
+            <div class="menu-items">
+                <div class="menu-item" data-aos="fade-right" data-aos-duration="2000">
+                    <h2>Appetizers</h2>
+                    <p>Delicious starters to tantalize your taste buds.</p>
+                </div>
+                <div class="menu-item" data-aos="fade-left" data-aos-duration="2000">
+                    <h2>Main Course</h2>
+                    <p>Hearty and wholesome main dishes for a satisfying meal.</p>
+                </div>
+                <div class="menu-item" data-aos="fade-right" data-aos-duration="2000">
+                    <h2>Desserts</h2>
+                    <p>Sweet treats to complete your dining experience.</p>
+                </div>
+                <div class="menu-item" data-aos="fade-left" data-aos-duration="2000">
+                    <h2>Beverages</h2>
+                    <p>Refreshing drinks to complement your meal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <!-- <section id="contact" class="contact">
+        <div class="content">
+            <div class="heading" data-aos="fade-down" data-aos-duration="2000">
+                <h1>Contact Us</h1>
+                <p>If you have any questions or need further information, feel free to contact us.</p>
+            </div>
+            <div class="contact-info" data-aos="fade-up" data-aos-duration="2000">
+                <p>Email: tastytwist@example.com</p>
+                <p>Phone: +121 9876543210</p>
+                <p>Address: Avenue Park, Aundh Street, Pune</p>
+            </div>
+        </div>
+    </section> -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email: tastytwist@example.com</p>
+                <p>Phone: +121 9876543210</p>
+                <p>Address: Avenue Park, Aundh Street, Pune</p>
+            </div>
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                <ul class="list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                    <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <p>&copy; 2023 Tasty Twist. All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
